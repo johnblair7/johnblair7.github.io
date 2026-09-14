@@ -90,14 +90,14 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow"><span /> Systems biology · Functional genomics</p>
-          <h1>Understand the system.<br /><em>Change the outcome.</em></h1>
+          <h1>Functional Perturbation Lab</h1>
           <p className="hero-intro">
-            We study how biological systems respond to precise perturbations—combining experiments,
-            computation, and open tools to uncover causal mechanisms.
+            We study how biological systems respond to precise perturbations. Our research combines
+            experimental and computational approaches to investigate causal mechanisms in biology.
           </p>
           <div className="hero-actions">
-            <a className="button button-primary" href="#research">Explore our research <ArrowDownRight size={18} /></a>
-            <a className="text-link" href="#publications">Read our latest work <ArrowUpRight size={17} /></a>
+            <a className="button button-primary" href="#research">Research <ArrowDownRight size={18} /></a>
+            <a className="text-link" href="#publications">Publications <ArrowDownRight size={17} /></a>
           </div>
         </div>
 
@@ -136,14 +136,10 @@ export default function Home() {
         <p className="hero-index">FPL / 001</p>
       </section>
 
-      <section className="marquee" aria-label="Lab methods">
-        <div>GENOME ENGINEERING <span>✦</span> SINGLE-CELL MEASUREMENT <span>✦</span> COMPUTATIONAL MODELING <span>✦</span> OPEN SCIENCE <span>✦</span> GENOME ENGINEERING <span>✦</span></div>
-      </section>
-
       <section className="section research-section" id="research">
         <div className="section-heading">
-          <p className="eyebrow"><span /> What we investigate</p>
-          <h2>From intervention<br />to <em>understanding.</em></h2>
+          <p className="eyebrow"><span /> Our work</p>
+          <h2>Research areas</h2>
         </div>
         <p className="section-lede">
           Our work starts with a simple premise: the best way to understand a complex system is to
@@ -163,8 +159,8 @@ export default function Home() {
 
       <section className="section publications-section" id="publications">
         <div className="section-heading compact">
-          <p className="eyebrow light"><span /> Selected publications</p>
-          <h2>Recent <em>work.</em></h2>
+          <p className="eyebrow light"><span /> Publications</p>
+          <h2>Selected publications</h2>
         </div>
         <div className="publication-list">
           {publications.map((publication) => (
@@ -180,8 +176,8 @@ export default function Home() {
 
       <section className="section tools-section" id="tools">
         <div className="section-heading">
-          <p className="eyebrow"><span /> Open tools</p>
-          <h2>Methods made<br /><em>useful.</em></h2>
+          <p className="eyebrow"><span /> Resources</p>
+          <h2>Tools &amp; resources</h2>
         </div>
         <div className="tools-copy">
           <p>We build accessible software and protocols that help others ask better questions of complex biological data.</p>
@@ -196,7 +192,7 @@ export default function Home() {
       <section className="section people-section" id="people">
         <div className="section-heading">
           <p className="eyebrow"><span /> The lab</p>
-          <h2>Curious minds,<br /><em>shared purpose.</em></h2>
+          <h2>People</h2>
         </div>
         <div className="people-layout">
           <article className="principal-card">
@@ -205,7 +201,7 @@ export default function Home() {
           </article>
           <div className="join-card">
             <Users size={28} />
-            <div><h3>Join the lab</h3><p>We welcome thoughtful people who enjoy ambitious questions and collaborative science.</p></div>
+            <div><h3>Join the lab</h3><p>Information about graduate, postdoctoral, and research staff opportunities will be posted here.</p></div>
             <a href="mailto:hello@example.edu">View opportunities <ArrowUpRight size={17} /></a>
           </div>
         </div>
@@ -214,15 +210,15 @@ export default function Home() {
       <section className="section collaborations-section" id="collaborations">
         <p className="eyebrow light"><span /> Collaborations</p>
         <div className="collab-grid">
-          <h2>Complex problems<br />need <em>many perspectives.</em></h2>
-          <div><p>We collaborate across biology, medicine, engineering, and computation. If our approaches complement yours, we would love to hear from you.</p><a className="button button-light" href="#contact">Start a conversation <ArrowDownRight size={18} /></a></div>
+          <h2>Collaborations</h2>
+          <div><p>We collaborate across biology, medicine, engineering, and computation. Please contact us to discuss potential research collaborations.</p><a className="button button-light" href="#contact">Contact the lab <ArrowDownRight size={18} /></a></div>
         </div>
       </section>
 
       <section className="contact-section" id="contact">
         <div>
           <p className="eyebrow"><span /> Contact</p>
-          <h2>Let’s ask better<br /><em>questions together.</em></h2>
+          <h2>Contact</h2>
         </div>
         <div className="contact-details">
           <a href="mailto:hello@example.edu"><Mail size={20} /><span><small>Email</small>hello@example.edu</span></a>
