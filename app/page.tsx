@@ -16,6 +16,7 @@ const navItems = [
   ["Publications", "#publications"],
   ["Resources", "#tools"],
   ["People", "#people"],
+  ["Collaborations", "#collaborations"],
   ["Contact", "#contact"],
 ];
 
@@ -183,6 +184,17 @@ export default function Home() {
               <a href="#contact">Full profile <ArrowUpRight size={16} /></a>
             </div>
           </article>
+        </div>
+      </section>
+
+      <section className="section collaborations-section" id="collaborations">
+        <p className="eyebrow light"><span /> Collaborations</p>
+        <div className="collab-grid">
+          <h2>Collaborations</h2>
+          <div>
+            <p>We are available for sponsored research projects, subcontracts, and collaborative grant applications.</p>
+            <a className="button button-light" href="https://docs.google.com/forms/d/e/1FAIpQLSc-aLpfpYSMY6Q_uCvcJ1oMOi2QtijKMnAnqq0U2l9QgyoUAA/viewform?usp=publish-editor" target="_blank" rel="noreferrer">Contact the lab <ArrowUpRight size={18} /></a>
+          </div>
         </div>
       </section>
 
