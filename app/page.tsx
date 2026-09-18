@@ -1,6 +1,7 @@
 import {
   ArrowDownRight,
   ArrowUpRight,
+  BookOpen,
   Calculator,
   Code2,
   ExternalLink,
@@ -157,9 +158,10 @@ export default function Home() {
         <div className="tools-copy">
           <p>Web tools developed for Phospho-seq and related single-cell experiments. The applications remain hosted independently and open in a new tab.</p>
           <div className="tool-list">
-            <a href="https://phospho-seq.netlify.app/probe-maker/" target="_blank" rel="noreferrer"><Code2 /><span><strong>ProbeMaker</strong><small>Design DNA probes complementary to mRNA sequences</small></span><ExternalLink size={18} /></a>
+            <a href="/protocols"><BookOpen /><span><strong>Protocols</strong><small>Experimental protocols and supporting materials</small></span><ArrowUpRight size={18} /></a>
+            <a href="https://phospho-seq.netlify.app/probe-maker/" target="_blank" rel="noreferrer"><Code2 /><span><strong>ProbeMaker</strong><small>Design custom DNA probes for use in 10x FLEX experiments</small></span><ExternalLink size={18} /></a>
             <a href="https://seed-finder-lite.onrender.com" target="_blank" rel="noreferrer"><FlaskConical /><span><strong>CRISPR Seed Finder</strong><small>Scan TSS windows for PAM-proximal seed matches</small></span><ExternalLink size={18} /></a>
-            <a href="https://seed-hit-browser.onrender.com" target="_blank" rel="noreferrer"><Network /><span><strong>CRISPR Seed Hit Browser</strong><small>Browse guide- and gene-level seed hits with differential-expression overlays</small></span><ExternalLink size={18} /></a>
+            <a href="https://seed-hit-browser.onrender.com" target="_blank" rel="noreferrer"><Network /><span><strong>CRISPR Seed Hit Browser</strong><small>Browse guide- and gene-level seed hits for the Dolcetto library only, with differential-expression overlays</small></span><ExternalLink size={18} /></a>
             <a href="https://phospho-seq.netlify.app/flex-v2-cost-calculator/" target="_blank" rel="noreferrer"><Calculator /><span><strong>Flex v2 Cost Calculator</strong><small>Estimate hybridization, GEM lane, and sequencing costs</small></span><ExternalLink size={18} /></a>
           </div>
           <a className="tools-source" href="https://github.com/johnblair7/phospho-seq" target="_blank" rel="noreferrer">Source and documentation on GitHub <ArrowUpRight size={16} /></a>
