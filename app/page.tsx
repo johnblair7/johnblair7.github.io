@@ -109,8 +109,8 @@ export default function Home() {
         <div className="hero-copy">
           <h1>Functional Perturbation Lab</h1>
           <p className="hero-intro">
-            We study how biological systems respond to precise perturbations. Our research combines
-            experimental and computational approaches to investigate causal mechanisms in biology.
+            We study how biological systems respond to precise perturbations. Our research involves
+            highly scalable multimodal experimental approaches to investigate causal mechanisms in biology.
           </p>
         </div>
 
