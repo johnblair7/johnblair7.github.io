@@ -16,7 +16,6 @@ const navItems = [
   ["Publications", "#publications"],
   ["Resources", "#tools"],
   ["People", "#people"],
-  ["Collaborations", "#collaborations"],
   ["Contact", "#contact"],
 ];
 
@@ -187,22 +186,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section collaborations-section" id="collaborations">
-        <p className="eyebrow light"><span /> Collaborations</p>
-        <div className="collab-grid">
-          <h2>Collaborations</h2>
-          <div><p>We collaborate across biology, medicine, engineering, and computation. Please contact us to discuss potential research collaborations.</p><a className="button button-light" href="#contact">Contact the lab <ArrowDownRight size={18} /></a></div>
-        </div>
-      </section>
-
       <section className="contact-section" id="contact">
         <div>
           <p className="eyebrow"><span /> Contact</p>
           <h2>Contact</h2>
         </div>
         <div className="contact-details">
-          <a href="mailto:hello@example.edu"><Mail size={20} /><span><small>Email</small>hello@example.edu</span></a>
-          <div><MapPin size={20} /><span><small>Location</small>Your Institution<br />City, State</span></div>
+          <a href="mailto:jblair@nygenome.org"><Mail size={20} /><span><small>Email</small>jblair@nygenome.org</span></a>
+          <div><MapPin size={20} /><span><small>Location</small>New York Genome Center<br />101 Avenue of the Americas<br />New York, NY 10013</span></div>
         </div>
       </section>
 
