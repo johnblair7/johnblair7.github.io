@@ -108,16 +108,11 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow"><span /> Systems biology · Functional genomics</p>
           <h1>Functional Perturbation Lab</h1>
           <p className="hero-intro">
             We study how biological systems respond to precise perturbations. Our research combines
             experimental and computational approaches to investigate causal mechanisms in biology.
           </p>
-          <div className="hero-actions">
-            <a className="button button-primary" href="#research">Research <ArrowDownRight size={18} /></a>
-            <a className="text-link" href="#publications">Publications <ArrowDownRight size={17} /></a>
-          </div>
         </div>
 
       </section>

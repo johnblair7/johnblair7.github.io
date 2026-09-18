@@ -66,8 +66,7 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
 h1, h2 { margin: 0; font-family: var(--font-newsreader), Georgia, serif; font-weight: 400; letter-spacing: -.055em; line-height: .91; }
 h1 { font-size: clamp(2.9rem, 5vw, 5.1rem); max-width: 760px; line-height: 1.02; letter-spacing: -.045em; }
 h1 em, h2 em { color: var(--cobalt); font-weight: 400; }
-.hero-intro { max-width: 660px; font-size: 1.05rem; line-height: 1.7; color: #435170; margin: 30px 0 34px; }
-.hero-actions { display: flex; align-items: center; gap: 30px; flex-wrap: wrap; }
+.hero-intro { max-width: 660px; font-size: 1.05rem; line-height: 1.7; color: #435170; margin: 30px 0 0; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; padding: 15px 21px; font-size: .8rem; font-weight: 750; border: 1px solid currentColor; transition: transform .2s ease, background .2s ease; }
 .button:hover { transform: translateY(-2px); }
 .button-primary { background: var(--ink); color: white; border-color: var(--ink); }
