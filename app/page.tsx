@@ -23,18 +23,18 @@ const navItems = [
 const researchAreas = [
   {
     number: "01",
-    title: "Perturbation biology",
-    copy: "Map how biological systems respond when genes, cells, or environments are deliberately changed.",
+    title: "Genetic Perturbations",
+    copy: "Map how biological systems change in response to perturbations of genes and regulatory elements.",
   },
   {
     number: "02",
-    title: "Functional genomics",
-    copy: "Pair high-throughput experiments with computation to connect molecular changes to phenotype.",
+    title: "Technology Development",
+    copy: "Develop new single-cell tools that capture more cells and modalities, improve data quality, and reduce costs.",
   },
   {
     number: "03",
-    title: "Predictive models",
-    copy: "Build interpretable models that reveal causal structure and guide the next experiment.",
+    title: "Neurological Disease Biology",
+    copy: "Use genetic perturbations in human models of neurological disease to uncover disease mechanisms and advance therapeutic development.",
   },
 ];
 
@@ -121,10 +121,6 @@ export default function Home() {
           <p className="eyebrow"><span /> Our work</p>
           <h2>Research areas</h2>
         </div>
-        <p className="section-lede">
-          Our work starts with a simple premise: the best way to understand a complex system is to
-          change it, measure what follows, and learn from the response.
-        </p>
         <div className="research-grid">
           {researchAreas.map((area) => (
             <article className="research-card" key={area.number}>
