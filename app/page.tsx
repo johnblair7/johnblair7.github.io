@@ -120,39 +120,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="hero-visual" aria-label="Abstract perturbation response diagram">
-          <div className="visual-label">Perturb → Measure → Model</div>
-          <svg viewBox="0 0 600 540" role="img" aria-label="Network of cellular responses to a perturbation">
-            <defs>
-              <linearGradient id="signal" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stopColor="#d7ff45" />
-                <stop offset="1" stopColor="#7bf0d5" />
-              </linearGradient>
-            </defs>
-            <g className="grid-lines">
-              {[80, 160, 240, 320, 400, 480].map((x) => <line key={`x${x}`} x1={x} y1="0" x2={x} y2="540" />)}
-              {[60, 140, 220, 300, 380, 460].map((y) => <line key={`y${y}`} x1="0" y1={y} x2="600" y2={y} />)}
-            </g>
-            <g className="network-lines">
-              <line x1="110" y1="140" x2="250" y2="210" /><line x1="250" y1="210" x2="390" y2="130" />
-              <line x1="250" y1="210" x2="360" y2="340" /><line x1="110" y1="140" x2="160" y2="370" />
-              <line x1="160" y1="370" x2="360" y2="340" /><line x1="360" y1="340" x2="500" y2="400" />
-              <line x1="390" y1="130" x2="500" y2="400" /><line x1="250" y1="210" x2="500" y2="400" />
-            </g>
-            <g className="nodes">
-              <circle cx="110" cy="140" r="18" /><circle cx="250" cy="210" r="42" className="node-focus" />
-              <circle cx="390" cy="130" r="25" /><circle cx="160" cy="370" r="28" />
-              <circle cx="360" cy="340" r="20" /><circle cx="500" cy="400" r="34" />
-            </g>
-            <g className="pulse-rings">
-              <circle cx="250" cy="210" r="68" /><circle cx="250" cy="210" r="100" />
-            </g>
-            <path className="response-curve" d="M68 490 C160 455, 192 492, 274 430 S420 470, 535 310" />
-          </svg>
-          <div className="visual-note visual-note-one"><strong>01</strong><span>Controlled<br />perturbation</span></div>
-          <div className="visual-note visual-note-two"><strong>03</strong><span>Predictive<br />insight</span></div>
-        </div>
-        <p className="hero-index">FPL / 001</p>
       </section>
 
       <section className="section research-section" id="research">
