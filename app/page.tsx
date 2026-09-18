@@ -9,7 +9,6 @@ import {
   Mail,
   MapPin,
   Network,
-  Users,
 } from "lucide-react";
 
 const navItems = [
@@ -185,11 +184,6 @@ export default function Home() {
               <a href="#contact">Full profile <ArrowUpRight size={16} /></a>
             </div>
           </article>
-          <div className="join-card">
-            <Users size={28} />
-            <div><h3>Join the lab</h3><p>Information about graduate, postdoctoral, and research staff opportunities will be posted here.</p></div>
-            <a href="mailto:hello@example.edu">View opportunities <ArrowUpRight size={17} /></a>
-          </div>
         </div>
       </section>
 
