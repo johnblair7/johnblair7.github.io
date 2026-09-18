@@ -1,7 +1,6 @@
 import {
   ArrowDownRight,
   ArrowUpRight,
-  BookOpen,
   Calculator,
   Code2,
   ExternalLink,
@@ -42,24 +41,43 @@ const researchAreas = [
 const publications = [
   {
     year: "2026",
+    type: "Preprint",
+    title: "Genome-wide single-cell perturbation screens with VIPerturb-seq",
+    authors: "Bradu A, Blair JD, Grabski IN, Mascio I, Lee J, McCormick C, Satija R",
+    journal: "bioRxiv · February 13, 2026 · PMCID: PMC12919025",
+    href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12919025/",
+  },
+  {
+    year: "2025",
+    type: "Preprint",
+    title: "Iterative, multimodal, and scalable single-cell profiling for discovery and characterization of signaling regulators",
+    authors: "Blair JD, Bradu A, Dalgarno C, Grabski IN, Satija R",
+    journal: "bioRxiv · August 30, 2025 · PMCID: PMC12407899",
+    href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12407899/",
+  },
+  {
+    year: "2025",
     type: "Research article",
-    title: "A representative publication title will appear here",
-    authors: "Your Name, Collaborator A, Collaborator B",
-    journal: "Journal or preprint server",
+    title: "Phospho-seq: integrated, multi-modal profiling of intracellular protein dynamics in single cells",
+    authors: "Blair JD, Hartman A, Zenk F, Wahle P, Brancati G, Dalgarno C, Treutlein B, Satija R",
+    journal: "Nature Communications · 16(1):1346 · PMCID: PMC11794950",
+    href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11794950/",
   },
   {
     year: "2025",
-    type: "Methods",
-    title: "Add your newest work and link directly to the paper",
-    authors: "Lab Member, Your Name",
-    journal: "Journal or preprint server",
+    type: "Preprint",
+    title: "mTORC1 activation drives astrocyte reactivity in cortical tubers and brain organoid models of TSC",
+    authors: "Li TL, Blair JD, Yoo T, Grant GA, Hockemeyer D, Porter BE, Bateup HS",
+    journal: "bioRxiv · March 18, 2025 · PMCID: PMC11908165",
+    href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11908165/",
   },
   {
-    year: "2025",
-    type: "Review",
-    title: "Use this space to highlight a field-defining contribution",
-    authors: "Your Name, Collaborator C",
-    journal: "Journal name",
+    year: "2018",
+    type: "Research article",
+    title: "Genetically engineered human cortical spheroid models of tuberous sclerosis",
+    authors: "Blair JD, Hockemeyer D, Bateup HS",
+    journal: "Nature Medicine · 24(10):1568–1578 · PMCID: PMC6261470",
+    href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6261470/",
   },
 ];
 
@@ -161,18 +179,17 @@ export default function Home() {
       <section className="section publications-section" id="publications">
         <div className="section-heading compact">
           <p className="eyebrow light"><span /> Publications</p>
-          <h2>Selected publications</h2>
+          <h2>Relevant publications</h2>
         </div>
         <div className="publication-list">
           {publications.map((publication) => (
-            <a className="publication-row" href="#contact" key={publication.title}>
+            <a className="publication-row" href={publication.href} target="_blank" rel="noreferrer" key={publication.title}>
               <div className="pub-meta"><span>{publication.year}</span><span>{publication.type}</span></div>
               <div><h3>{publication.title}</h3><p>{publication.authors} · <em>{publication.journal}</em></p></div>
               <ArrowUpRight size={22} aria-hidden="true" />
             </a>
           ))}
         </div>
-        <a className="button button-light" href="#contact">View all publications <BookOpen size={17} /></a>
       </section>
 
       <section className="section tools-section" id="tools">
@@ -199,8 +216,15 @@ export default function Home() {
         </div>
         <div className="people-layout">
           <article className="principal-card">
-            <div className="portrait-placeholder"><span>PI</span></div>
-            <div><p className="role">Principal Investigator</p><h3>Your Name, PhD</h3><p>Add a short biography describing your scientific path, central questions, and approach to mentorship.</p><a href="#contact">Full profile <ArrowUpRight size={16} /></a></div>
+            <div className="portrait-placeholder"><span>JB</span></div>
+            <div>
+              <p className="role">Platform Lead</p>
+              <h3>John Blair, PhD</h3>
+              <p>
+                John Blair received his PhD from the University of California, Berkeley, where he worked in Dr. Helen Bateup&apos;s lab and established human neuronal models of Tuberous Sclerosis. This work combined 3D human stem cell differentiation, CRISPR-mediated stem cell engineering, and single-cell sequencing. He completed his postdoctoral training in Dr. Rahul Satija&apos;s lab at the New York Genome Center, where he developed multimodal technologies for single-cell sequencing with intracellular protein quantification and perturbations—including Phospho-seq and FlexPlex—as well as VIPerturb-seq for large-scale Perturb-seq in fixed samples.
+              </p>
+              <a href="#contact">Full profile <ArrowUpRight size={16} /></a>
+            </div>
           </article>
           <div className="join-card">
             <Users size={28} />
