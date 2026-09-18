@@ -14,7 +14,7 @@ import {
 const navItems = [
   ["Research", "#research"],
   ["Publications", "#publications"],
-  ["Tools", "#tools"],
+  ["Resources", "#tools"],
   ["People", "#people"],
   ["Collaborations", "#collaborations"],
   ["Contact", "#contact"],
