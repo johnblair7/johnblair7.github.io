@@ -92,8 +92,7 @@ export default function Home() {
             <span />
           </span>
           <span className="brand-copy">
-            <strong>Functional Perturbation</strong>
-            <small>Laboratory</small>
+            <strong>Functional Perturbation Laboratory - New York Genome Center</strong>
           </span>
         </a>
         <nav aria-label="Primary navigation">
