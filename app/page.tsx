@@ -219,7 +219,7 @@ export default function Home() {
       <footer>
         <a className="brand footer-brand" href="#top"><span className="brand-mark"><span /><span /><span /></span><span className="brand-copy"><strong>Functional Perturbation</strong><small>Laboratory</small></span></a>
         <p>© 2026 Functional Perturbation Lab</p>
-        <div><a href="#publications">Google Scholar</a><a href="#tools">GitHub</a><a href="#top">Back to top ↑</a></div>
+        <div><a href="https://scholar.google.com/citations?user=uyiSs8gAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a><a href="#tools">GitHub</a><a href="#top">Back to top ↑</a></div>
       </footer>
     </main>
   );
