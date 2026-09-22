@@ -25,16 +25,22 @@ const researchAreas = [
     number: "01",
     title: "Genetic Perturbations",
     copy: "We use state-of-the-art genetic perturbation assays to map how biological systems change in response to perturbations of genes and regulatory elements—millions of cells at a time.",
+    image: "/research-genetic-perturbations.png",
+    imageAlt: "Droplet-based workflow for high-throughput genetic perturbation assays",
   },
   {
     number: "02",
     title: "Technology Development",
     copy: "Develop new single-cell tools that capture more cells and modalities, improve data quality, and reduce costs.",
+    image: "/research-technology-development.png",
+    imageAlt: "Illustration of multimodal measurements within a single cell",
   },
   {
     number: "03",
     title: "Neurological Disease Biology",
     copy: "Use genetic perturbations in human models of neurological disease to uncover disease mechanisms and advance therapeutic development.",
+    image: "/research-neurological-disease.png",
+    imageAlt: "Fluorescence microscopy image of human neurons",
   },
 ];
 
@@ -125,7 +131,9 @@ export default function Home() {
               <div className="card-top"><span>{area.number}</span><ArrowUpRight size={19} /></div>
               <h3>{area.title}</h3>
               <p>{area.copy}</p>
-              <div className={`mini-chart chart-${area.number}`} aria-hidden="true"><span /><span /><span /><span /><span /></div>
+              <div className="research-visual">
+                <img src={area.image} alt={area.imageAlt} />
+              </div>
             </article>
           ))}
         </div>
