@@ -155,7 +155,6 @@ export default function Home() {
           <h2>Tools &amp; resources</h2>
         </div>
         <div className="tools-copy">
-          <p>Web tools developed for Phospho-seq and related single-cell experiments. The applications remain hosted independently and open in a new tab.</p>
           <div className="tool-list">
             <a href="/protocols"><BookOpen /><span><strong>Protocols</strong><small>Experimental protocols and supporting materials</small></span><ArrowUpRight size={18} /></a>
             <a href="https://phospho-seq.netlify.app/probe-maker/" target="_blank" rel="noreferrer"><Code2 /><span><strong>ProbeMaker</strong><small>Design custom DNA probes for use in 10x FLEX experiments</small></span><ExternalLink size={18} /></a>
