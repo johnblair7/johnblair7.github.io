@@ -24,7 +24,7 @@ const researchAreas = [
   {
     number: "01",
     title: "Genetic Perturbations",
-    copy: "Map how biological systems change in response to perturbations of genes and regulatory elements.",
+    copy: "We use state-of-the-art genetic perturbation assays to map how biological systems change in response to perturbations of genes and regulatory elements—millions of cells at a time.",
   },
   {
     number: "02",
@@ -85,31 +85,29 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Functional Perturbation Lab home">
-          <span className="brand-mark" aria-hidden="true">
-            <span />
-            <span />
-            <span />
-          </span>
-          <span className="brand-copy">
-            <strong>Functional Perturbation Laboratory - New York Genome Center</strong>
-          </span>
-        </a>
+        <div className="header-topline">
+          <a className="brand" href="#top" aria-label="Functional Perturbation Lab home">
+            <img className="nygc-logo" src="/nygc-logo.png" alt="New York Genome Center" />
+            <span className="brand-copy">
+              <strong>Functional Perturbation Laboratory - New York Genome Center</strong>
+            </span>
+          </a>
+          <a className="header-contact" href="#contact">
+            Get in touch <ArrowDownRight size={17} aria-hidden="true" />
+          </a>
+        </div>
         <nav aria-label="Primary navigation">
           {navItems.map(([label, href]) => (
             <a key={label} href={href}>{label}</a>
           ))}
         </nav>
-        <a className="header-contact" href="#contact">
-          Get in touch <ArrowDownRight size={17} aria-hidden="true" />
-        </a>
       </header>
 
       <section className="hero" id="top">
         <div className="hero-copy">
           <h1>Functional Perturbation Lab</h1>
           <p className="hero-intro">
-            We study how biological systems respond to precise perturbations. Our research involves
+            Based at the New York Genome Center, we study how biological systems respond to precise perturbations. Our research involves
             highly scalable multimodal experimental approaches to investigate causal mechanisms in biology.
           </p>
         </div>
@@ -191,7 +189,7 @@ export default function Home() {
         <div className="collab-grid">
           <h2>Collaborations</h2>
           <div>
-            <p>We are available for sponsored research projects, subcontracts, and collaborative grant applications.</p>
+            <p>We welcome sponsored research projects, subcontracts, and collaborative grant applications. Please fill out the form below to reach out and someone will be in contact with you shortly.</p>
             <a className="button button-light" href="https://docs.google.com/forms/d/e/1FAIpQLSc-aLpfpYSMY6Q_uCvcJ1oMOi2QtijKMnAnqq0U2l9QgyoUAA/viewform?usp=publish-editor" target="_blank" rel="noreferrer">Contact the lab <ArrowUpRight size={18} /></a>
           </div>
         </div>

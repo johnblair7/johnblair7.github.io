@@ -5,11 +5,7 @@ export default function Protocols() {
     <main className="protocols-page">
       <header className="subpage-header">
         <a className="brand" href="/" aria-label="Functional Perturbation Laboratory home">
-          <span className="brand-mark" aria-hidden="true">
-            <span />
-            <span />
-            <span />
-          </span>
+          <img className="nygc-logo" src="/nygc-logo.png" alt="New York Genome Center" />
           <span className="brand-copy">
             <strong>Functional Perturbation Laboratory - New York Genome Center</strong>
           </span>
