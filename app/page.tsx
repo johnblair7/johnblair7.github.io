@@ -179,7 +179,9 @@ export default function Home() {
         </div>
         <div className="people-layout">
           <article className="principal-card">
-            <div className="portrait-placeholder"><span>JB</span></div>
+            <div className="portrait-placeholder">
+              <img src="/john-blair-headshot.png" alt="John Blair, PhD" />
+            </div>
             <div>
               <p className="role">Platform Lead</p>
               <h3>John Blair, PhD</h3>
