@@ -186,7 +186,7 @@ export default function Home() {
               <p>
                 John Blair received his PhD from the University of California, Berkeley, where he worked in Dr. Helen Bateup&apos;s lab and established human neuronal models of Tuberous Sclerosis. This work combined 3D human stem cell differentiation, CRISPR-mediated stem cell engineering, and single-cell sequencing. He completed his postdoctoral training in Dr. Rahul Satija&apos;s lab at the New York Genome Center, where he developed multimodal technologies for single-cell sequencing with intracellular protein quantification and perturbations—including Phospho-seq and FlexPlex—as well as VIPerturb-seq for large-scale Perturb-seq in fixed samples.
               </p>
-              <a href="#contact">Full profile <ArrowUpRight size={16} /></a>
+              <a href="https://www.ncbi.nlm.nih.gov/myncbi/john.blair.2/bibliography/public/" target="_blank" rel="noreferrer">Full bibliography <ArrowUpRight size={16} /></a>
             </div>
           </article>
         </div>
