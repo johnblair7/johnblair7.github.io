@@ -70,12 +70,12 @@ const publications = [
     href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11794950/",
   },
   {
-    year: "2025",
-    type: "Preprint",
-    title: "mTORC1 activation drives astrocyte reactivity in cortical tubers and brain organoid models of TSC",
+    year: "2026",
+    type: "Research article",
+    title: "mTORC1 drives cell-autonomous astrocyte reactivity in tuberous sclerosis",
     authors: "Li TL, Blair JD, Yoo T, Grant GA, Hockemeyer D, Porter BE, Bateup HS",
-    journal: "bioRxiv · March 18, 2025 · PMCID: PMC11908165",
-    href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11908165/",
+    journal: "Nature · September 23, 2026 · DOI: 10.1038/s41586-026-11054-w",
+    href: "https://pubmed.ncbi.nlm.nih.gov/42778607/",
   },
   {
     year: "2018",
