@@ -178,7 +178,7 @@ export default function Home() {
           <h2>People</h2>
         </div>
         <div className="people-layout">
-          <article className="principal-card">
+          <article className="person-card">
             <div className="portrait-placeholder">
               <img src="/john-blair-headshot.png" alt="John Blair, PhD" />
             </div>
@@ -189,6 +189,21 @@ export default function Home() {
                 John Blair received his PhD from the University of California, Berkeley, where he worked in Dr. Helen Bateup&apos;s lab and established human neuronal models of Tuberous Sclerosis. This work combined 3D human stem cell differentiation, CRISPR-mediated stem cell engineering, and single-cell sequencing. He completed his postdoctoral training in Dr. Rahul Satija&apos;s lab at the New York Genome Center, where he developed multimodal technologies for single-cell sequencing with intracellular protein quantification and perturbations—including Phospho-seq and FlexPlex—as well as VIPerturb-seq for large-scale Perturb-seq in fixed samples.
               </p>
               <a href="https://www.ncbi.nlm.nih.gov/myncbi/john.blair.2/bibliography/public/" target="_blank" rel="noreferrer">Full bibliography <ArrowUpRight size={16} /></a>
+            </div>
+          </article>
+          <article className="person-card">
+            <div className="portrait-placeholder">
+              <img src="/zuleykha-ganbarova-headshot.jpeg" alt="Zuleykha Ganbarova, MS" />
+            </div>
+            <div>
+              <p className="role">Research Associate</p>
+              <h3>Zuleykha Ganbarova, MS</h3>
+              <p>
+                Zuleykha received her M.S. in Biotechnology from New York University, where she focused on molecular and cellular biology and their applications in biotechnology and healthcare.
+              </p>
+              <p>
+                During her graduate studies, she conducted research in Dr. Michele Pagano&apos;s laboratory at NYU Grossman School of Medicine, where she studied SCF ubiquitin ligases, with a focus on substrate recognition, protein stability, and cellular senescence in the context of cancer biology.
+              </p>
             </div>
           </article>
         </div>
